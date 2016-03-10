@@ -45,3 +45,4 @@
     \- (void)scrollView:(JYScrollView *)scrollView didSelectItemAtIndex:(NSInteger)index{
          NSLog(@"didSelectItemAtIndex = %ld",index);
     }
+![](http://s3.sinaimg.cn/orignal/001StBb2gy700p4PMJ432&690)
