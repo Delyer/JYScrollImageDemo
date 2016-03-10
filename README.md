@@ -13,11 +13,11 @@
   #pragma mark - JYScrollViewDelegate
 
 //返回items数量
-- (NSInteger)numberOfItemsInScrollView:(JYScrollView *)scrollView{
+\- (NSInteger)numberOfItemsInScrollView:(JYScrollView *)scrollView{
     return _imageArray.count;
 }
 
-- (UIView *)scrollView:(JYScrollView *)scrollView viewForItemAtIndex:(NSInteger)index reusingView:(UIView *)view{
+\- (UIView *)scrollView:(JYScrollView *)scrollView viewForItemAtIndex:(NSInteger)index reusingView:(UIView *)view{
     
     //自己自定义UIView返回即可
     if (!view) {
@@ -35,12 +35,12 @@
 }
 
 //返回自定义UIView的size
-- (CGSize)subViewSizeInJYScrollView:(JYScrollView *)scrollView{
+\- (CGSize)subViewSizeInJYScrollView:(JYScrollView *)scrollView{
     
     return CGSizeMake(SCREEN_WIDTH * subViewWidthScale, 200);
 }
 
 //点击事件
-- (void)scrollView:(JYScrollView *)scrollView didSelectItemAtIndex:(NSInteger)index{
+\- (void)scrollView:(JYScrollView *)scrollView didSelectItemAtIndex:(NSInteger)index{
     NSLog(@"didSelectItemAtIndex = %ld",index);
 }
