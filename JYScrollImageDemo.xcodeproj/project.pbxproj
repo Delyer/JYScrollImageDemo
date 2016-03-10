@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3774DCD1C91463100B4BCA7 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3774DCA1C91463100B4BCA7 /* iCarousel.m */; };
+		A3774DCE1C91463100B4BCA7 /* JYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3774DCC1C91463100B4BCA7 /* JYScrollView.m */; };
+		A393A1C51C8E674700BD91AE /* hinata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A393A1C11C8E674700BD91AE /* hinata.jpg */; };
+		A393A1C61C8E674700BD91AE /* konan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A393A1C21C8E674700BD91AE /* konan.jpg */; };
+		A393A1C71C8E674700BD91AE /* sakula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A393A1C31C8E674700BD91AE /* sakula.jpg */; };
+		A393A1C81C8E674700BD91AE /* tenten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A393A1C41C8E674700BD91AE /* tenten.jpg */; };
+		A3B1C3EC1C8D7DFF00CDE971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B1C3EB1C8D7DFF00CDE971 /* main.m */; };
+		A3B1C3EF1C8D7DFF00CDE971 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B1C3EE1C8D7DFF00CDE971 /* AppDelegate.m */; };
+		A3B1C3F21C8D7DFF00CDE971 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B1C3F11C8D7DFF00CDE971 /* ViewController.m */; };
+		A3B1C3F51C8D7DFF00CDE971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B1C3F31C8D7DFF00CDE971 /* Main.storyboard */; };
+		A3B1C3F71C8D7DFF00CDE971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3B1C3F61C8D7DFF00CDE971 /* Assets.xcassets */; };
+		A3B1C3FA1C8D7DFF00CDE971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B1C3F81C8D7DFF00CDE971 /* LaunchScreen.storyboard */; };
+		A3B1C4051C8D7DFF00CDE971 /* JYScrollImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B1C4041C8D7DFF00CDE971 /* JYScrollImageDemoTests.m */; };
+		A3B1C4101C8D7DFF00CDE971 /* JYScrollImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B1C40F1C8D7DFF00CDE971 /* JYScrollImageDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3B1C4011C8D7DFF00CDE971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3B1C3DF1C8D7DFF00CDE971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3B1C3E61C8D7DFF00CDE971;
+			remoteInfo = JYScrollImageDemo;
+		};
+		A3B1C40C1C8D7DFF00CDE971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3B1C3DF1C8D7DFF00CDE971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3B1C3E61C8D7DFF00CDE971;
+			remoteInfo = JYScrollImageDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3774DC91C91463100B4BCA7 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		A3774DCA1C91463100B4BCA7 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		A3774DCB1C91463100B4BCA7 /* JYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYScrollView.h; sourceTree = "<group>"; };
+		A3774DCC1C91463100B4BCA7 /* JYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYScrollView.m; sourceTree = "<group>"; };
+		A393A1C11C8E674700BD91AE /* hinata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hinata.jpg; sourceTree = "<group>"; };
+		A393A1C21C8E674700BD91AE /* konan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = konan.jpg; sourceTree = "<group>"; };
+		A393A1C31C8E674700BD91AE /* sakula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sakula.jpg; sourceTree = "<group>"; };
+		A393A1C41C8E674700BD91AE /* tenten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tenten.jpg; sourceTree = "<group>"; };
+		A3B1C3E71C8D7DFF00CDE971 /* JYScrollImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYScrollImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B1C3EB1C8D7DFF00CDE971 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3B1C3ED1C8D7DFF00CDE971 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3B1C3EE1C8D7DFF00CDE971 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3B1C3F01C8D7DFF00CDE971 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3B1C3F11C8D7DFF00CDE971 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3B1C3F41C8D7DFF00CDE971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3B1C3F61C8D7DFF00CDE971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3B1C3F91C8D7DFF00CDE971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3B1C3FB1C8D7DFF00CDE971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B1C4001C8D7DFF00CDE971 /* JYScrollImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYScrollImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B1C4041C8D7DFF00CDE971 /* JYScrollImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYScrollImageDemoTests.m; sourceTree = "<group>"; };
+		A3B1C4061C8D7DFF00CDE971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B1C40B1C8D7DFF00CDE971 /* JYScrollImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYScrollImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B1C40F1C8D7DFF00CDE971 /* JYScrollImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYScrollImageDemoUITests.m; sourceTree = "<group>"; };
+		A3B1C4111C8D7DFF00CDE971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3B1C3E41C8D7DFF00CDE971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B1C3FD1C8D7DFF00CDE971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B1C4081C8D7DFF00CDE971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3774DC81C91463100B4BCA7 /* JYScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A3774DC91C91463100B4BCA7 /* iCarousel.h */,
+				A3774DCA1C91463100B4BCA7 /* iCarousel.m */,
+				A3774DCB1C91463100B4BCA7 /* JYScrollView.h */,
+				A3774DCC1C91463100B4BCA7 /* JYScrollView.m */,
+			);
+			path = JYScrollView;
+			sourceTree = "<group>";
+		};
+		A3B1C3DE1C8D7DFF00CDE971 = {
+			isa = PBXGroup;
+			children = (
+				A3B1C3E91C8D7DFF00CDE971 /* JYScrollImageDemo */,
+				A3B1C4031C8D7DFF00CDE971 /* JYScrollImageDemoTests */,
+				A3B1C40E1C8D7DFF00CDE971 /* JYScrollImageDemoUITests */,
+				A3B1C3E81C8D7DFF00CDE971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3B1C3E81C8D7DFF00CDE971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B1C3E71C8D7DFF00CDE971 /* JYScrollImageDemo.app */,
+				A3B1C4001C8D7DFF00CDE971 /* JYScrollImageDemoTests.xctest */,
+				A3B1C40B1C8D7DFF00CDE971 /* JYScrollImageDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3B1C3E91C8D7DFF00CDE971 /* JYScrollImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A3774DC81C91463100B4BCA7 /* JYScrollView */,
+				A393A1C11C8E674700BD91AE /* hinata.jpg */,
+				A393A1C21C8E674700BD91AE /* konan.jpg */,
+				A393A1C31C8E674700BD91AE /* sakula.jpg */,
+				A393A1C41C8E674700BD91AE /* tenten.jpg */,
+				A3B1C3ED1C8D7DFF00CDE971 /* AppDelegate.h */,
+				A3B1C3EE1C8D7DFF00CDE971 /* AppDelegate.m */,
+				A3B1C3F01C8D7DFF00CDE971 /* ViewController.h */,
+				A3B1C3F11C8D7DFF00CDE971 /* ViewController.m */,
+				A3B1C3F31C8D7DFF00CDE971 /* Main.storyboard */,
+				A3B1C3F61C8D7DFF00CDE971 /* Assets.xcassets */,
+				A3B1C3F81C8D7DFF00CDE971 /* LaunchScreen.storyboard */,
+				A3B1C3FB1C8D7DFF00CDE971 /* Info.plist */,
+				A3B1C3EA1C8D7DFF00CDE971 /* Supporting Files */,
+			);
+			path = JYScrollImageDemo;
+			sourceTree = "<group>";
+		};
+		A3B1C3EA1C8D7DFF00CDE971 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B1C3EB1C8D7DFF00CDE971 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3B1C4031C8D7DFF00CDE971 /* JYScrollImageDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3B1C4041C8D7DFF00CDE971 /* JYScrollImageDemoTests.m */,
+				A3B1C4061C8D7DFF00CDE971 /* Info.plist */,
+			);
+			path = JYScrollImageDemoTests;
+			sourceTree = "<group>";
+		};
+		A3B1C40E1C8D7DFF00CDE971 /* JYScrollImageDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3B1C40F1C8D7DFF00CDE971 /* JYScrollImageDemoUITests.m */,
+				A3B1C4111C8D7DFF00CDE971 /* Info.plist */,
+			);
+			path = JYScrollImageDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3B1C3E61C8D7DFF00CDE971 /* JYScrollImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B1C4141C8D7DFF00CDE971 /* Build configuration list for PBXNativeTarget "JYScrollImageDemo" */;
+			buildPhases = (
+				A3B1C3E31C8D7DFF00CDE971 /* Sources */,
+				A3B1C3E41C8D7DFF00CDE971 /* Frameworks */,
+				A3B1C3E51C8D7DFF00CDE971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYScrollImageDemo;
+			productName = JYScrollImageDemo;
+			productReference = A3B1C3E71C8D7DFF00CDE971 /* JYScrollImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3B1C3FF1C8D7DFF00CDE971 /* JYScrollImageDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B1C4171C8D7DFF00CDE971 /* Build configuration list for PBXNativeTarget "JYScrollImageDemoTests" */;
+			buildPhases = (
+				A3B1C3FC1C8D7DFF00CDE971 /* Sources */,
+				A3B1C3FD1C8D7DFF00CDE971 /* Frameworks */,
+				A3B1C3FE1C8D7DFF00CDE971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3B1C4021C8D7DFF00CDE971 /* PBXTargetDependency */,
+			);
+			name = JYScrollImageDemoTests;
+			productName = JYScrollImageDemoTests;
+			productReference = A3B1C4001C8D7DFF00CDE971 /* JYScrollImageDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3B1C40A1C8D7DFF00CDE971 /* JYScrollImageDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B1C41A1C8D7DFF00CDE971 /* Build configuration list for PBXNativeTarget "JYScrollImageDemoUITests" */;
+			buildPhases = (
+				A3B1C4071C8D7DFF00CDE971 /* Sources */,
+				A3B1C4081C8D7DFF00CDE971 /* Frameworks */,
+				A3B1C4091C8D7DFF00CDE971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3B1C40D1C8D7DFF00CDE971 /* PBXTargetDependency */,
+			);
+			name = JYScrollImageDemoUITests;
+			productName = JYScrollImageDemoUITests;
+			productReference = A3B1C40B1C8D7DFF00CDE971 /* JYScrollImageDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3B1C3DF1C8D7DFF00CDE971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Dely;
+				TargetAttributes = {
+					A3B1C3E61C8D7DFF00CDE971 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					A3B1C3FF1C8D7DFF00CDE971 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A3B1C3E61C8D7DFF00CDE971;
+					};
+					A3B1C40A1C8D7DFF00CDE971 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = A3B1C3E61C8D7DFF00CDE971;
+					};
+				};
+			};
+			buildConfigurationList = A3B1C3E21C8D7DFF00CDE971 /* Build configuration list for PBXProject "JYScrollImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3B1C3DE1C8D7DFF00CDE971;
+			productRefGroup = A3B1C3E81C8D7DFF00CDE971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3B1C3E61C8D7DFF00CDE971 /* JYScrollImageDemo */,
+				A3B1C3FF1C8D7DFF00CDE971 /* JYScrollImageDemoTests */,
+				A3B1C40A1C8D7DFF00CDE971 /* JYScrollImageDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3B1C3E51C8D7DFF00CDE971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A393A1C61C8E674700BD91AE /* konan.jpg in Resources */,
+				A3B1C3FA1C8D7DFF00CDE971 /* LaunchScreen.storyboard in Resources */,
+				A393A1C71C8E674700BD91AE /* sakula.jpg in Resources */,
+				A3B1C3F71C8D7DFF00CDE971 /* Assets.xcassets in Resources */,
+				A393A1C51C8E674700BD91AE /* hinata.jpg in Resources */,
+				A3B1C3F51C8D7DFF00CDE971 /* Main.storyboard in Resources */,
+				A393A1C81C8E674700BD91AE /* tenten.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B1C3FE1C8D7DFF00CDE971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B1C4091C8D7DFF00CDE971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3B1C3E31C8D7DFF00CDE971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3774DCE1C91463100B4BCA7 /* JYScrollView.m in Sources */,
+				A3B1C3F21C8D7DFF00CDE971 /* ViewController.m in Sources */,
+				A3774DCD1C91463100B4BCA7 /* iCarousel.m in Sources */,
+				A3B1C3EF1C8D7DFF00CDE971 /* AppDelegate.m in Sources */,
+				A3B1C3EC1C8D7DFF00CDE971 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B1C3FC1C8D7DFF00CDE971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B1C4051C8D7DFF00CDE971 /* JYScrollImageDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B1C4071C8D7DFF00CDE971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B1C4101C8D7DFF00CDE971 /* JYScrollImageDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3B1C4021C8D7DFF00CDE971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3B1C3E61C8D7DFF00CDE971 /* JYScrollImageDemo */;
+			targetProxy = A3B1C4011C8D7DFF00CDE971 /* PBXContainerItemProxy */;
+		};
+		A3B1C40D1C8D7DFF00CDE971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3B1C3E61C8D7DFF00CDE971 /* JYScrollImageDemo */;
+			targetProxy = A3B1C40C1C8D7DFF00CDE971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3B1C3F31C8D7DFF00CDE971 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B1C3F41C8D7DFF00CDE971 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3B1C3F81C8D7DFF00CDE971 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B1C3F91C8D7DFF00CDE971 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3B1C4121C8D7DFF00CDE971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3B1C4131C8D7DFF00CDE971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3B1C4151C8D7DFF00CDE971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYScrollImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dely.JYScrollImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3B1C4161C8D7DFF00CDE971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYScrollImageDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dely.JYScrollImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3B1C4181C8D7DFF00CDE971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYScrollImageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dely.JYScrollImageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYScrollImageDemo.app/JYScrollImageDemo";
+			};
+			name = Debug;
+		};
+		A3B1C4191C8D7DFF00CDE971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYScrollImageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dely.JYScrollImageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYScrollImageDemo.app/JYScrollImageDemo";
+			};
+			name = Release;
+		};
+		A3B1C41B1C8D7DFF00CDE971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYScrollImageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dely.JYScrollImageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYScrollImageDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A3B1C41C1C8D7DFF00CDE971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYScrollImageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dely.JYScrollImageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYScrollImageDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3B1C3E21C8D7DFF00CDE971 /* Build configuration list for PBXProject "JYScrollImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B1C4121C8D7DFF00CDE971 /* Debug */,
+				A3B1C4131C8D7DFF00CDE971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B1C4141C8D7DFF00CDE971 /* Build configuration list for PBXNativeTarget "JYScrollImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B1C4151C8D7DFF00CDE971 /* Debug */,
+				A3B1C4161C8D7DFF00CDE971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B1C4171C8D7DFF00CDE971 /* Build configuration list for PBXNativeTarget "JYScrollImageDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B1C4181C8D7DFF00CDE971 /* Debug */,
+				A3B1C4191C8D7DFF00CDE971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B1C41A1C8D7DFF00CDE971 /* Build configuration list for PBXNativeTarget "JYScrollImageDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B1C41B1C8D7DFF00CDE971 /* Debug */,
+				A3B1C41C1C8D7DFF00CDE971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3B1C3DF1C8D7DFF00CDE971 /* Project object */;
+}
