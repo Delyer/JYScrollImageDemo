@@ -19,6 +19,7 @@
 
 @property (strong, nonatomic) JYScrollView *scrollView;
 @property (strong, nonatomic) NSArray *imageArray;
+@property (assign, nonatomic) NSInteger index;
 
 @end
 
@@ -36,6 +37,18 @@
     
     [self.scrollView reloadData];
     
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    button.frame = CGRectMake(100, 350,100, 30);
+    [button setTitle:@"改变当前索引" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    self.index = 0;
+}
+
+- (void)buttonAction{
+    self.index ++ ;
+    self.index = self.index % _imageArray.count;
+    [self.scrollView updateScrollViewWithItemIndex:self.index];
 }
 
 #pragma mark - JYScrollViewDelegate

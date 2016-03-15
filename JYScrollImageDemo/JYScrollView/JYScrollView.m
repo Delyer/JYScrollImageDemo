@@ -109,4 +109,9 @@ static CGFloat heightSapce = 10.0;  //上下偏移
     }
 }
 
+//外部更新展示item
+- (void)updateScrollViewWithItemIndex:(NSInteger)itemIndex{
+    self.carousel.currentItemIndex = itemIndex;
+}
+
 @end

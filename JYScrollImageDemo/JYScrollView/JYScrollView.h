@@ -42,4 +42,7 @@ static CGFloat subViewWidthScale = 0.733; //290/375 屏幕宽度比，可修改
 
 - (void)reloadData;
 
+//外部更新展示item
+- (void)updateScrollViewWithItemIndex:(NSInteger)itemIndex;
+
 @end
